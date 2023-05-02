@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest - Formulário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <div class="texto">
+                <h2 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+                <p class="paragrafo">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+
+            <div class="conteudo">
+                <form action="" class="formulario">
+                    <div class="campo campo-nome">
+                        <input class="input input-dados" type="text" placeholder="Nome completo *" required>
+                        <span class="campo-obrigatorio span-position" hidden>campo obrigatório</span>
+                    </div>
+
+                    <div class="campo">
+                        <input class="input input-dados" type="email" placeholder="Email *" required>
+                        <span class="campo-obrigatorio span-position" hidden>campo obrigatório</span>
+                    </div>
+
+                    <div class="campo">
+                        <input class="input input-dados" type="tel" placeholder="Telefone *" required>
+                        <span class="campo-obrigatorio span-position" hidden>campo obrigatório</span>
+                    </div>
+
+                    <div class="campo">
+                        <textarea class="input input-mensagem" name="mensagem" id="" cols="40" rows="10" placeholder="Mensagem *"></textarea>
+                        <span class="campo-obrigatorio" hidden>campo obrigatório</span>
+                    </div>
+
+                    <span class="aviso">*campos obrigatórios</span>
+  
+                    <button class="botao">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./src/js/formulario.js"></script>
+</body>
+</html>

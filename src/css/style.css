@@ -1,0 +1,121 @@
+body{
+    background: url(../imagens/bg-repeat.jpg);
+    background-size: 1920px 1080px;
+    background-repeat: repeat;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.texto{
+    height: 100px;
+    width: 300px;
+    margin: 0px 100px 0px 0px;
+}
+
+.texto .titulo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+    color: #FFFFFF;
+}
+
+.texto .paragrafo{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.formulario{
+    height: 100%;
+    width: 340px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.campo{
+    margin-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.campo-nome{
+    margin-top: 0px;
+}
+
+.input{
+    border-radius: 5px;
+    border: 1px solid;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.input-dados{
+    width: 298px;
+    height: 35px;
+}
+
+.input-mensagem {
+    width: 298px;
+    height: 100px;
+    margin-bottom: -4px;
+}
+
+.span-position{
+    position: absolute;
+}
+
+.input-mensagem::placeholder {
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+.botao{
+    width: 298px;
+    height: 41px;
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.aviso{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bordaVerde{
+    border-color: #3CCC87;
+}
+
+.bordaVermelha{
+    border-color: #f52e2e
+}
+
+.campo-obrigatorio{
+    font-size: 8px;
+    color: #F52E2E;
+    font-weight: 400;
+}
+
+.positionSpan {
+    display: block;
+}
+    
