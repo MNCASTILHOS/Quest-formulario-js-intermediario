@@ -71,6 +71,7 @@ input::placeholder {
     width: 298px;
     height: 100px;
     margin-bottom: -4px;
+    resize: none;
 }
 
 .span-position{
